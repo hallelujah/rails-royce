@@ -11,3 +11,5 @@ group :development do
   gem "jeweler", "~> 1.5.1"
   gem "rcov", ">= 0"
 end
+
+gem "activesupport", ">= 3.0", :require => 'active_support'
