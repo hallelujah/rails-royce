@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rails-royce}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hallelujah"]
   s.date = %q{2010-12-07}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{A bundle of custom library for my projects}
   s.email = %q{hery@rails-royce.org}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,9 +27,12 @@ Gem::Specification.new do |s|
     "lib/rails_royce/core_ext.rb",
     "lib/rails_royce/core_ext/array.rb",
     "lib/rails_royce/core_ext/array/sphinx.rb",
+    "lib/rails_royce/core_ext/hash.rb",
+    "lib/rails_royce/core_ext/hash/sphinx.rb",
     "lib/rails_royce/core_ext/object.rb",
     "lib/rails_royce/core_ext/object/sphinx.rb",
     "lib/rails_royce/core_ext/sphinx.rb",
+    "rails-royce.gemspec",
     "test/helper.rb",
     "test/test_rails_royce.rb"
   ]
@@ -37,7 +40,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{A bundle of custom library for my projects}
   s.test_files = [
     "test/helper.rb",
     "test/test_rails_royce.rb"
