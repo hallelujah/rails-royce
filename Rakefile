@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "rails-royce"
   gem.homepage = "http://github.com/hallelujah/rails-royce"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A bundle of custom library for my projects}
+  gem.description = %Q{A bundle of custom library for my projects}
   gem.email = "hery@rails-royce.org"
   gem.authors = ["hallelujah"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
